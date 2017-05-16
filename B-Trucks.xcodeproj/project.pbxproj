@@ -32,8 +32,14 @@
 		2B4F944B1E8D8E0000DC0BB7 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2B4F94331E8D8E0000DC0BB7 /* Info.plist */; };
 		2B4F944C1E8D8E0000DC0BB7 /* YelpAPI.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 2B4F94351E8D8E0000DC0BB7 /* YelpAPI.xcconfig */; };
 		2B4F944D1E8D8E0000DC0BB7 /* YelpAPI-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B4F94361E8D8E0000DC0BB7 /* YelpAPI-dummy.m */; };
-		2B4F94511E8DA0EC00DC0BB7 /* YelpAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B4F94501E8DA0EC00DC0BB7 /* YelpAPI.framework */; };
 		2B4F94571E94784400DC0BB7 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B4F94561E94784400DC0BB7 /* CoreLocation.framework */; };
+		2B50BAE51ECBA260003EE085 /* updateUserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B50BAE41ECBA260003EE085 /* updateUserInfo.swift */; };
+		2B50BAE71ECBA28C003EE085 /* UpdateOwnerInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B50BAE61ECBA28C003EE085 /* UpdateOwnerInfo.swift */; };
+		2B50BAE91ECBA29C003EE085 /* updateTruckLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B50BAE81ECBA29C003EE085 /* updateTruckLocation.swift */; };
+		2B50BAEB1ECBA2B6003EE085 /* CreateTruck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B50BAEA1ECBA2B6003EE085 /* CreateTruck.swift */; };
+		2B50BAEE1ECBA2C6003EE085 /* RegisterOwner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B50BAEC1ECBA2C6003EE085 /* RegisterOwner.swift */; };
+		2B50BAEF1ECBA2C6003EE085 /* RegisterUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B50BAED1ECBA2C6003EE085 /* RegisterUser.swift */; };
+		2B50BAF11ECBA2D0003EE085 /* LogInScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B50BAF01ECBA2D0003EE085 /* LogInScreen.swift */; };
 		2B647D071E5CFB000041958F /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B647D061E5CFB000041958F /* Map.swift */; };
 		2B647D0A1E5CFB4E0041958F /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B647D091E5CFB4E0041958F /* MapKit.framework */; };
 		2B6644301E8227ED00D0B45E /* UserSidebarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B66442F1E8227ED00D0B45E /* UserSidebarVC.swift */; };
@@ -58,13 +64,6 @@
 		6044C4501E6CAA1600B2A78D /* TruckListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6044C44F1E6CAA1600B2A78D /* TruckListTableViewCell.swift */; };
 		6044C4521E6CAA8B00B2A78D /* TrucksListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6044C4511E6CAA8B00B2A78D /* TrucksListViewController.swift */; };
 		D409BDA6A48BE23B56EA2872 /* Pods_B_Trucks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90F268BDA4529AA529C2B2A0 /* Pods_B_Trucks.framework */; settings = {ATTRIBUTES = (Required, ); }; };
-		E7BB63F01EA8770300708866 /* CreateTruck.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7BB63EF1EA8770300708866 /* CreateTruck.swift */; };
-		E7BB63F21EA8776A00708866 /* RegisterUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7BB63F11EA8776A00708866 /* RegisterUser.swift */; };
-		E7BB63F41EA8778F00708866 /* RegisterOwner.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7BB63F31EA8778F00708866 /* RegisterOwner.swift */; };
-		E7BB63F61EA877A600708866 /* LogInScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7BB63F51EA877A600708866 /* LogInScreen.swift */; };
-		E7BB63F81EA877BB00708866 /* UpdateOwnerInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7BB63F71EA877BB00708866 /* UpdateOwnerInfo.swift */; };
-		E7BB63FA1EA877EE00708866 /* updateTruckLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7BB63F91EA877EE00708866 /* updateTruckLocation.swift */; };
-		E7BB63FC1EA8787000708866 /* updateUserInfo-2.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7BB63FB1EA8787000708866 /* updateUserInfo-2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -117,8 +116,14 @@
 		2B4F94361E8D8E0000DC0BB7 /* YelpAPI-dummy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "YelpAPI-dummy.m"; sourceTree = "<group>"; };
 		2B4F94371E8D8E0000DC0BB7 /* YelpAPI-prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "YelpAPI-prefix.pch"; sourceTree = "<group>"; };
 		2B4F94381E8D8E0000DC0BB7 /* YelpAPI-umbrella.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "YelpAPI-umbrella.h"; sourceTree = "<group>"; };
-		2B4F94501E8DA0EC00DC0BB7 /* YelpAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = YelpAPI.framework; path = "../../Library/Developer/Xcode/DerivedData/B-Trucks-emdwolfbfdjfwidjwscbgzurjhja/Build/Products/Debug-iphonesimulator/YelpAPI/YelpAPI.framework"; sourceTree = "<group>"; };
 		2B4F94561E94784400DC0BB7 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		2B50BAE41ECBA260003EE085 /* updateUserInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = updateUserInfo.swift; sourceTree = "<group>"; };
+		2B50BAE61ECBA28C003EE085 /* UpdateOwnerInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpdateOwnerInfo.swift; sourceTree = "<group>"; };
+		2B50BAE81ECBA29C003EE085 /* updateTruckLocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = updateTruckLocation.swift; sourceTree = "<group>"; };
+		2B50BAEA1ECBA2B6003EE085 /* CreateTruck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateTruck.swift; sourceTree = "<group>"; };
+		2B50BAEC1ECBA2C6003EE085 /* RegisterOwner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterOwner.swift; sourceTree = "<group>"; };
+		2B50BAED1ECBA2C6003EE085 /* RegisterUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterUser.swift; sourceTree = "<group>"; };
+		2B50BAF01ECBA2D0003EE085 /* LogInScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogInScreen.swift; sourceTree = "<group>"; };
 		2B647D061E5CFB000041958F /* Map.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Map.swift; path = ../Map.swift; sourceTree = "<group>"; };
 		2B647D091E5CFB4E0041958F /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		2B66442F1E8227ED00D0B45E /* UserSidebarVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserSidebarVC.swift; sourceTree = "<group>"; };
@@ -146,13 +151,6 @@
 		6044C4511E6CAA8B00B2A78D /* TrucksListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrucksListViewController.swift; sourceTree = "<group>"; };
 		90F268BDA4529AA529C2B2A0 /* Pods_B_Trucks.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_B_Trucks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7F2092BD52D11EA1EB25179 /* Pods-B-Trucks.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-B-Trucks.release.xcconfig"; path = "Pods/Target Support Files/Pods-B-Trucks/Pods-B-Trucks.release.xcconfig"; sourceTree = "<group>"; };
-		E7BB63EF1EA8770300708866 /* CreateTruck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CreateTruck.swift; path = ../../../../../../var/folders/xw/f8m1pbmx771b85kjnvkrw7900000gn/T/com.apple.iChat/Messages/Transfers/CreateTruck.swift; sourceTree = "<group>"; };
-		E7BB63F11EA8776A00708866 /* RegisterUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RegisterUser.swift; path = ../../../../../../var/folders/xw/f8m1pbmx771b85kjnvkrw7900000gn/T/com.apple.iChat/Messages/Transfers/RegisterUser.swift; sourceTree = "<group>"; };
-		E7BB63F31EA8778F00708866 /* RegisterOwner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RegisterOwner.swift; path = ../../../../../../var/folders/xw/f8m1pbmx771b85kjnvkrw7900000gn/T/com.apple.iChat/Messages/Transfers/RegisterOwner.swift; sourceTree = "<group>"; };
-		E7BB63F51EA877A600708866 /* LogInScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LogInScreen.swift; path = ../../../../../../var/folders/xw/f8m1pbmx771b85kjnvkrw7900000gn/T/com.apple.iChat/Messages/Transfers/LogInScreen.swift; sourceTree = "<group>"; };
-		E7BB63F71EA877BB00708866 /* UpdateOwnerInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UpdateOwnerInfo.swift; path = ../../../../../../var/folders/xw/f8m1pbmx771b85kjnvkrw7900000gn/T/com.apple.iChat/Messages/Transfers/UpdateOwnerInfo.swift; sourceTree = "<group>"; };
-		E7BB63F91EA877EE00708866 /* updateTruckLocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = updateTruckLocation.swift; path = ../../../../../../var/folders/xw/f8m1pbmx771b85kjnvkrw7900000gn/T/com.apple.iChat/Messages/Transfers/updateTruckLocation.swift; sourceTree = "<group>"; };
-		E7BB63FB1EA8787000708866 /* updateUserInfo-2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "updateUserInfo-2.swift"; path = "../../../../../../var/folders/xw/f8m1pbmx771b85kjnvkrw7900000gn/T/com.apple.iChat/Messages/Transfers/updateUserInfo-2.swift"; sourceTree = "<group>"; };
 		F849EE9F6C593078166895BE /* Pods-B-Trucks.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-B-Trucks.debug.xcconfig"; path = "Pods/Target Support Files/Pods-B-Trucks/Pods-B-Trucks.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -162,7 +160,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				2B4F94571E94784400DC0BB7 /* CoreLocation.framework in Frameworks */,
-				2B4F94511E8DA0EC00DC0BB7 /* YelpAPI.framework in Frameworks */,
 				2B647D0A1E5CFB4E0041958F /* MapKit.framework in Frameworks */,
 				D409BDA6A48BE23B56EA2872 /* Pods_B_Trucks.framework in Frameworks */,
 			);
@@ -249,7 +246,6 @@
 			isa = PBXGroup;
 			children = (
 				2B4F94561E94784400DC0BB7 /* CoreLocation.framework */,
-				2B4F94501E8DA0EC00DC0BB7 /* YelpAPI.framework */,
 				2B647D091E5CFB4E0041958F /* MapKit.framework */,
 				90F268BDA4529AA529C2B2A0 /* Pods_B_Trucks.framework */,
 			);
@@ -280,10 +276,10 @@
 			isa = PBXGroup;
 			children = (
 				2BE28AAB1E68C922008CC670 /* PasswordRecovery.swift */,
-				E7BB63EF1EA8770300708866 /* CreateTruck.swift */,
-				E7BB63F11EA8776A00708866 /* RegisterUser.swift */,
-				E7BB63F31EA8778F00708866 /* RegisterOwner.swift */,
-				E7BB63F51EA877A600708866 /* LogInScreen.swift */,
+				2B50BAEA1ECBA2B6003EE085 /* CreateTruck.swift */,
+				2B50BAEC1ECBA2C6003EE085 /* RegisterOwner.swift */,
+				2B50BAED1ECBA2C6003EE085 /* RegisterUser.swift */,
+				2B50BAF01ECBA2D0003EE085 /* LogInScreen.swift */,
 			);
 			name = "User Registration & Login";
 			sourceTree = "<group>";
@@ -325,10 +321,10 @@
 				2B6C428E1DF4B7A800655C9E /* AppDelegate.swift */,
 				2B87F6C61EA844EF008E7A6E /* FoodRecommendations.swift */,
 				2B6644391E842B5C00D0B45E /* User Registration & Login */,
-				E7BB63F71EA877BB00708866 /* UpdateOwnerInfo.swift */,
+				2B50BAE61ECBA28C003EE085 /* UpdateOwnerInfo.swift */,
 				2B87F6B11EA5722F008E7A6E /* EditTruckMenu */,
 				2B87F6A41E9D8B2A008E7A6E /* ViewMenu */,
-				E7BB63FB1EA8787000708866 /* updateUserInfo-2.swift */,
+				2B50BAE41ECBA260003EE085 /* updateUserInfo.swift */,
 				2B87F6C41EA73236008E7A6E /* addMenuItem.swift */,
 				2B87F6BF1EA7093B008E7A6E /* updateTruckInfo.swift */,
 				2B66443A1E842C3500D0B45E /* Settings Bar */,
@@ -336,7 +332,7 @@
 				2B6644381E842B3000D0B45E /* View Trucks Listview */,
 				2B6644371E842B1E00D0B45E /* View Owner's Trucks Listview */,
 				2BD5BD1A1E8C838F004AE489 /* EmployeeViewController.swift */,
-				E7BB63F91EA877EE00708866 /* updateTruckLocation.swift */,
+				2B50BAE81ECBA29C003EE085 /* updateTruckLocation.swift */,
 				2B4F940F1E8D8C0400DC0BB7 /* TruckInfoViewController.swift */,
 				2B420A5D1E95968E001B6BF1 /* Main.storyboard */,
 				2B4F94071E8D88EF00DC0BB7 /* ViewFoodRecListView */,
@@ -502,17 +498,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E7BB63F41EA8778F00708866 /* RegisterOwner.swift in Sources */,
+				2B50BAEE1ECBA2C6003EE085 /* RegisterOwner.swift in Sources */,
 				243E11031E6E3C700042E0DA /* SWRevealViewController.m in Sources */,
 				2B6644361E84241800D0B45E /* OwnerTrucksTableViewCell.swift in Sources */,
 				2B4F94101E8D8C0400DC0BB7 /* TruckInfoViewController.swift in Sources */,
 				2B4F943D1E8D8E0000DC0BB7 /* YLPBusiness.m in Sources */,
-				E7BB63FC1EA8787000708866 /* updateUserInfo-2.swift in Sources */,
 				2B4F94041E8D887200DC0BB7 /* RecsViewController.swift in Sources */,
 				2BD5BD191E8C7A3E004AE489 /* LoadingViewController.swift in Sources */,
 				2BD5BD1B1E8C838F004AE489 /* EmployeeViewController.swift in Sources */,
+				2B50BAEF1ECBA2C6003EE085 /* RegisterUser.swift in Sources */,
 				2B87F6A91E9D8B36008E7A6E /* MenuTableViewCell.swift in Sources */,
-				E7BB63F61EA877A600708866 /* LogInScreen.swift in Sources */,
+				2B50BAF11ECBA2D0003EE085 /* LogInScreen.swift in Sources */,
 				2B87F6C51EA73236008E7A6E /* addMenuItem.swift in Sources */,
 				2B4F94021E8D885F00DC0BB7 /* Rec.swift in Sources */,
 				2B87F6A81E9D8B36008E7A6E /* Menu.swift in Sources */,
@@ -520,14 +516,14 @@
 				243E11051E6E66960042E0DA /* OwnerSidebarVC.swift in Sources */,
 				2B6644341E8422C800D0B45E /* OwnerTrucks.swift in Sources */,
 				2B4F943C1E8D8E0000DC0BB7 /* NSDictionary+YLPUtils.m in Sources */,
-				E7BB63F21EA8776A00708866 /* RegisterUser.swift in Sources */,
 				2B4F94451E8D8E0000DC0BB7 /* YLPCoordinate.m in Sources */,
-				E7BB63F01EA8770300708866 /* CreateTruck.swift in Sources */,
-				E7BB63F81EA877BB00708866 /* UpdateOwnerInfo.swift in Sources */,
+				2B50BAEB1ECBA2B6003EE085 /* CreateTruck.swift in Sources */,
+				2B50BAE51ECBA260003EE085 /* updateUserInfo.swift in Sources */,
+				2B50BAE71ECBA28C003EE085 /* UpdateOwnerInfo.swift in Sources */,
 				2B4F94411E8D8E0000DC0BB7 /* YLPClient+Business.m in Sources */,
 				2B4F94481E8D8E0000DC0BB7 /* YLPReview.m in Sources */,
 				2B6644321E8348B000D0B45E /* OwnerTrucksViewController.swift in Sources */,
-				E7BB63FA1EA877EE00708866 /* updateTruckLocation.swift in Sources */,
+				2B50BAE91ECBA29C003EE085 /* updateTruckLocation.swift in Sources */,
 				2B4F943E1E8D8E0000DC0BB7 /* YLPBusinessReviews.m in Sources */,
 				2B4F94061E8D888700DC0BB7 /* RecTableViewCell.swift in Sources */,
 				2BE28AAC1E68C922008CC670 /* PasswordRecovery.swift in Sources */,
