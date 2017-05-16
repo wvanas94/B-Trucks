@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "B-Trucks/ViewController.swift"
+            timestampString = "506888551.332301"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1"
+            endingLineNumber = "1">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "B_Trucks.ViewController.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; B_Trucks.ViewController"
+                  moduleName = "B-Trucks"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Wesley/Desktop/GitHub/Team-18/B-Trucks/B-Trucks/ViewController.swift"
+                  timestampString = "506889089.182178"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "B_Trucks.ViewController.__allocating_init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; B_Trucks.ViewController"
+                  moduleName = "B-Trucks"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Wesley/Desktop/GitHub/Team-18/B-Trucks/B-Trucks/ViewController.swift"
+                  timestampString = "506889089.185649"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "32">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "B_Trucks.ViewController.__allocating_init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;B_Trucks.ViewController&gt;"
+                  moduleName = "B-Trucks"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Wesley/Desktop/GitHub/Team-18/B-Trucks/B-Trucks/ViewController.swift"
+                  timestampString = "506889089.190625"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "B_Trucks.ViewController.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;B_Trucks.ViewController&gt;"
+                  moduleName = "B-Trucks"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Wesley/Desktop/GitHub/Team-18/B-Trucks/B-Trucks/ViewController.swift"
+                  timestampString = "506889089.193764"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "117">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "B-Trucks/HomeModel.swift"
+            timestampString = "507441997.327164"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "52"
+            endingLineNumber = "52"
+            landmarkName = "urlSession(_:task:didCompleteWithError:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

@@ -1,0 +1,729 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		243E11031E6E3C700042E0DA /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 243E11021E6E3C700042E0DA /* SWRevealViewController.m */; };
+		243E11051E6E66960042E0DA /* OwnerSidebarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243E11041E6E66960042E0DA /* OwnerSidebarVC.swift */; };
+		2B420A5E1E95968E001B6BF1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B420A5D1E95968E001B6BF1 /* Main.storyboard */; };
+		2B4F94021E8D885F00DC0BB7 /* Rec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4F94011E8D885F00DC0BB7 /* Rec.swift */; };
+		2B4F94041E8D887200DC0BB7 /* RecsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4F94031E8D887200DC0BB7 /* RecsViewController.swift */; };
+		2B4F94061E8D888700DC0BB7 /* RecTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4F94051E8D888700DC0BB7 /* RecTableViewCell.swift */; };
+		2B4F94101E8D8C0400DC0BB7 /* TruckInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4F940F1E8D8C0400DC0BB7 /* TruckInfoViewController.swift */; };
+		2B4F943C1E8D8E0000DC0BB7 /* NSDictionary+YLPUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B4F94111E8D8E0000DC0BB7 /* NSDictionary+YLPUtils.m */; };
+		2B4F943D1E8D8E0000DC0BB7 /* YLPBusiness.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B4F94141E8D8E0000DC0BB7 /* YLPBusiness.m */; };
+		2B4F943E1E8D8E0000DC0BB7 /* YLPBusinessReviews.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B4F94161E8D8E0000DC0BB7 /* YLPBusinessReviews.m */; };
+		2B4F943F1E8D8E0000DC0BB7 /* YLPCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B4F94181E8D8E0000DC0BB7 /* YLPCategory.m */; };
+		2B4F94401E8D8E0000DC0BB7 /* YLPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B4F941A1E8D8E0000DC0BB7 /* YLPClient.m */; };
+		2B4F94411E8D8E0000DC0BB7 /* YLPClient+Business.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B4F941C1E8D8E0000DC0BB7 /* YLPClient+Business.m */; };
+		2B4F94421E8D8E0000DC0BB7 /* YLPClient+PhoneSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B4F941E1E8D8E0000DC0BB7 /* YLPClient+PhoneSearch.m */; };
+		2B4F94431E8D8E0000DC0BB7 /* YLPClient+Reviews.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B4F94201E8D8E0000DC0BB7 /* YLPClient+Reviews.m */; };
+		2B4F94441E8D8E0000DC0BB7 /* YLPClient+Search.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B4F94221E8D8E0000DC0BB7 /* YLPClient+Search.m */; };
+		2B4F94451E8D8E0000DC0BB7 /* YLPCoordinate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B4F94251E8D8E0000DC0BB7 /* YLPCoordinate.m */; };
+		2B4F94461E8D8E0000DC0BB7 /* YLPLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B4F94271E8D8E0000DC0BB7 /* YLPLocation.m */; };
+		2B4F94471E8D8E0000DC0BB7 /* YLPQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B4F94291E8D8E0000DC0BB7 /* YLPQuery.m */; };
+		2B4F94481E8D8E0000DC0BB7 /* YLPReview.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B4F942D1E8D8E0000DC0BB7 /* YLPReview.m */; };
+		2B4F94491E8D8E0000DC0BB7 /* YLPSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B4F942F1E8D8E0000DC0BB7 /* YLPSearch.m */; };
+		2B4F944A1E8D8E0000DC0BB7 /* YLPUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B4F94321E8D8E0000DC0BB7 /* YLPUser.m */; };
+		2B4F944B1E8D8E0000DC0BB7 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2B4F94331E8D8E0000DC0BB7 /* Info.plist */; };
+		2B4F944C1E8D8E0000DC0BB7 /* YelpAPI.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 2B4F94351E8D8E0000DC0BB7 /* YelpAPI.xcconfig */; };
+		2B4F944D1E8D8E0000DC0BB7 /* YelpAPI-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B4F94361E8D8E0000DC0BB7 /* YelpAPI-dummy.m */; };
+		2B4F94511E8DA0EC00DC0BB7 /* YelpAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B4F94501E8DA0EC00DC0BB7 /* YelpAPI.framework */; };
+		2B4F94571E94784400DC0BB7 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B4F94561E94784400DC0BB7 /* CoreLocation.framework */; };
+		2B647D071E5CFB000041958F /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B647D061E5CFB000041958F /* Map.swift */; };
+		2B647D0A1E5CFB4E0041958F /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B647D091E5CFB4E0041958F /* MapKit.framework */; };
+		2B6644301E8227ED00D0B45E /* UserSidebarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B66442F1E8227ED00D0B45E /* UserSidebarVC.swift */; };
+		2B6644321E8348B000D0B45E /* OwnerTrucksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B6644311E8348B000D0B45E /* OwnerTrucksViewController.swift */; };
+		2B6644341E8422C800D0B45E /* OwnerTrucks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B6644331E8422C800D0B45E /* OwnerTrucks.swift */; };
+		2B6644361E84241800D0B45E /* OwnerTrucksTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B6644351E84241800D0B45E /* OwnerTrucksTableViewCell.swift */; };
+		2B6C428F1DF4B7A800655C9E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B6C428E1DF4B7A800655C9E /* AppDelegate.swift */; };
+		2B6C42961DF4B7A800655C9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B6C42951DF4B7A800655C9E /* Assets.xcassets */; };
+		2B87F6A81E9D8B36008E7A6E /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B87F6A51E9D8B36008E7A6E /* Menu.swift */; };
+		2B87F6A91E9D8B36008E7A6E /* MenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B87F6A61E9D8B36008E7A6E /* MenuTableViewCell.swift */; };
+		2B87F6AA1E9D8B36008E7A6E /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B87F6A71E9D8B36008E7A6E /* MenuViewController.swift */; };
+		2B87F6B01EA57227008E7A6E /* EditTruckMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B87F6AF1EA57227008E7A6E /* EditTruckMenu.swift */; };
+		2B87F6B31EA572A5008E7A6E /* EditTruckMenuViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B87F6B21EA572A5008E7A6E /* EditTruckMenuViewCell.swift */; };
+		2B87F6B51EA5735C008E7A6E /* EditTruckMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B87F6B41EA5735C008E7A6E /* EditTruckMenuViewController.swift */; };
+		2B87F6C11EA7093B008E7A6E /* updateTruckInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B87F6BF1EA7093B008E7A6E /* updateTruckInfo.swift */; };
+		2B87F6C51EA73236008E7A6E /* addMenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B87F6C41EA73236008E7A6E /* addMenuItem.swift */; };
+		2B87F6C71EA844EF008E7A6E /* FoodRecommendations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B87F6C61EA844EF008E7A6E /* FoodRecommendations.swift */; };
+		2BD5BD191E8C7A3E004AE489 /* LoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD5BD181E8C7A3E004AE489 /* LoadingViewController.swift */; };
+		2BD5BD1B1E8C838F004AE489 /* EmployeeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD5BD1A1E8C838F004AE489 /* EmployeeViewController.swift */; };
+		2BE28AAC1E68C922008CC670 /* PasswordRecovery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE28AAB1E68C922008CC670 /* PasswordRecovery.swift */; };
+		6044C44E1E6CA90C00B2A78D /* TruckList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6044C44D1E6CA90C00B2A78D /* TruckList.swift */; };
+		6044C4501E6CAA1600B2A78D /* TruckListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6044C44F1E6CAA1600B2A78D /* TruckListTableViewCell.swift */; };
+		6044C4521E6CAA8B00B2A78D /* TrucksListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6044C4511E6CAA8B00B2A78D /* TrucksListViewController.swift */; };
+		D409BDA6A48BE23B56EA2872 /* Pods_B_Trucks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90F268BDA4529AA529C2B2A0 /* Pods_B_Trucks.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		E7BB63F01EA8770300708866 /* CreateTruck.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7BB63EF1EA8770300708866 /* CreateTruck.swift */; };
+		E7BB63F21EA8776A00708866 /* RegisterUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7BB63F11EA8776A00708866 /* RegisterUser.swift */; };
+		E7BB63F41EA8778F00708866 /* RegisterOwner.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7BB63F31EA8778F00708866 /* RegisterOwner.swift */; };
+		E7BB63F61EA877A600708866 /* LogInScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7BB63F51EA877A600708866 /* LogInScreen.swift */; };
+		E7BB63F81EA877BB00708866 /* UpdateOwnerInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7BB63F71EA877BB00708866 /* UpdateOwnerInfo.swift */; };
+		E7BB63FA1EA877EE00708866 /* updateTruckLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7BB63F91EA877EE00708866 /* updateTruckLocation.swift */; };
+		E7BB63FC1EA8787000708866 /* updateUserInfo-2.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7BB63FB1EA8787000708866 /* updateUserInfo-2.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		243E11001E6E3C6F0042E0DA /* B-Trucks-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "B-Trucks-Bridging-Header.h"; sourceTree = "<group>"; };
+		243E11011E6E3C700042E0DA /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		243E11021E6E3C700042E0DA /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		243E11041E6E66960042E0DA /* OwnerSidebarVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OwnerSidebarVC.swift; sourceTree = "<group>"; };
+		2B420A5D1E95968E001B6BF1 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		2B4F94011E8D885F00DC0BB7 /* Rec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rec.swift; sourceTree = "<group>"; };
+		2B4F94031E8D887200DC0BB7 /* RecsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecsViewController.swift; sourceTree = "<group>"; };
+		2B4F94051E8D888700DC0BB7 /* RecTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecTableViewCell.swift; sourceTree = "<group>"; };
+		2B4F940F1E8D8C0400DC0BB7 /* TruckInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TruckInfoViewController.swift; sourceTree = "<group>"; };
+		2B4F94111E8D8E0000DC0BB7 /* NSDictionary+YLPUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+YLPUtils.m"; path = "Classes/Response/NSDictionary+YLPUtils.m"; sourceTree = "<group>"; };
+		2B4F94121E8D8E0000DC0BB7 /* YelpAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YelpAPI.h; path = Classes/YelpAPI.h; sourceTree = "<group>"; };
+		2B4F94131E8D8E0000DC0BB7 /* YLPBusiness.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YLPBusiness.h; path = Classes/Response/YLPBusiness.h; sourceTree = "<group>"; };
+		2B4F94141E8D8E0000DC0BB7 /* YLPBusiness.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YLPBusiness.m; path = Classes/Response/YLPBusiness.m; sourceTree = "<group>"; };
+		2B4F94151E8D8E0000DC0BB7 /* YLPBusinessReviews.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YLPBusinessReviews.h; path = Classes/Response/YLPBusinessReviews.h; sourceTree = "<group>"; };
+		2B4F94161E8D8E0000DC0BB7 /* YLPBusinessReviews.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YLPBusinessReviews.m; path = Classes/Response/YLPBusinessReviews.m; sourceTree = "<group>"; };
+		2B4F94171E8D8E0000DC0BB7 /* YLPCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YLPCategory.h; path = Classes/Response/YLPCategory.h; sourceTree = "<group>"; };
+		2B4F94181E8D8E0000DC0BB7 /* YLPCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YLPCategory.m; path = Classes/Response/YLPCategory.m; sourceTree = "<group>"; };
+		2B4F94191E8D8E0000DC0BB7 /* YLPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YLPClient.h; path = Classes/Client/YLPClient.h; sourceTree = "<group>"; };
+		2B4F941A1E8D8E0000DC0BB7 /* YLPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YLPClient.m; path = Classes/Client/YLPClient.m; sourceTree = "<group>"; };
+		2B4F941B1E8D8E0000DC0BB7 /* YLPClient+Business.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "YLPClient+Business.h"; path = "Classes/Client/YLPClient+Business.h"; sourceTree = "<group>"; };
+		2B4F941C1E8D8E0000DC0BB7 /* YLPClient+Business.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "YLPClient+Business.m"; path = "Classes/Client/YLPClient+Business.m"; sourceTree = "<group>"; };
+		2B4F941D1E8D8E0000DC0BB7 /* YLPClient+PhoneSearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "YLPClient+PhoneSearch.h"; path = "Classes/Client/YLPClient+PhoneSearch.h"; sourceTree = "<group>"; };
+		2B4F941E1E8D8E0000DC0BB7 /* YLPClient+PhoneSearch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "YLPClient+PhoneSearch.m"; path = "Classes/Client/YLPClient+PhoneSearch.m"; sourceTree = "<group>"; };
+		2B4F941F1E8D8E0000DC0BB7 /* YLPClient+Reviews.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "YLPClient+Reviews.h"; path = "Classes/Client/YLPClient+Reviews.h"; sourceTree = "<group>"; };
+		2B4F94201E8D8E0000DC0BB7 /* YLPClient+Reviews.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "YLPClient+Reviews.m"; path = "Classes/Client/YLPClient+Reviews.m"; sourceTree = "<group>"; };
+		2B4F94211E8D8E0000DC0BB7 /* YLPClient+Search.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "YLPClient+Search.h"; path = "Classes/Client/YLPClient+Search.h"; sourceTree = "<group>"; };
+		2B4F94221E8D8E0000DC0BB7 /* YLPClient+Search.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "YLPClient+Search.m"; path = "Classes/Client/YLPClient+Search.m"; sourceTree = "<group>"; };
+		2B4F94231E8D8E0000DC0BB7 /* YLPClientPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YLPClientPrivate.h; path = Classes/Client/YLPClientPrivate.h; sourceTree = "<group>"; };
+		2B4F94241E8D8E0000DC0BB7 /* YLPCoordinate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YLPCoordinate.h; path = Classes/Common/YLPCoordinate.h; sourceTree = "<group>"; };
+		2B4F94251E8D8E0000DC0BB7 /* YLPCoordinate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YLPCoordinate.m; path = Classes/Common/YLPCoordinate.m; sourceTree = "<group>"; };
+		2B4F94261E8D8E0000DC0BB7 /* YLPLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YLPLocation.h; path = Classes/Response/YLPLocation.h; sourceTree = "<group>"; };
+		2B4F94271E8D8E0000DC0BB7 /* YLPLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YLPLocation.m; path = Classes/Response/YLPLocation.m; sourceTree = "<group>"; };
+		2B4F94281E8D8E0000DC0BB7 /* YLPQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YLPQuery.h; path = Classes/Request/YLPQuery.h; sourceTree = "<group>"; };
+		2B4F94291E8D8E0000DC0BB7 /* YLPQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YLPQuery.m; path = Classes/Request/YLPQuery.m; sourceTree = "<group>"; };
+		2B4F942A1E8D8E0000DC0BB7 /* YLPQueryPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YLPQueryPrivate.h; path = Classes/Request/YLPQueryPrivate.h; sourceTree = "<group>"; };
+		2B4F942B1E8D8E0000DC0BB7 /* YLPResponsePrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YLPResponsePrivate.h; path = Classes/Response/YLPResponsePrivate.h; sourceTree = "<group>"; };
+		2B4F942C1E8D8E0000DC0BB7 /* YLPReview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YLPReview.h; path = Classes/Response/YLPReview.h; sourceTree = "<group>"; };
+		2B4F942D1E8D8E0000DC0BB7 /* YLPReview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YLPReview.m; path = Classes/Response/YLPReview.m; sourceTree = "<group>"; };
+		2B4F942E1E8D8E0000DC0BB7 /* YLPSearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YLPSearch.h; path = Classes/Response/YLPSearch.h; sourceTree = "<group>"; };
+		2B4F942F1E8D8E0000DC0BB7 /* YLPSearch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YLPSearch.m; path = Classes/Response/YLPSearch.m; sourceTree = "<group>"; };
+		2B4F94301E8D8E0000DC0BB7 /* YLPSortType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YLPSortType.h; path = Classes/Request/YLPSortType.h; sourceTree = "<group>"; };
+		2B4F94311E8D8E0000DC0BB7 /* YLPUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YLPUser.h; path = Classes/Response/YLPUser.h; sourceTree = "<group>"; };
+		2B4F94321E8D8E0000DC0BB7 /* YLPUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YLPUser.m; path = Classes/Response/YLPUser.m; sourceTree = "<group>"; };
+		2B4F94331E8D8E0000DC0BB7 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B4F94341E8D8E0000DC0BB7 /* YelpAPI.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = YelpAPI.modulemap; sourceTree = "<group>"; };
+		2B4F94351E8D8E0000DC0BB7 /* YelpAPI.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = YelpAPI.xcconfig; sourceTree = "<group>"; };
+		2B4F94361E8D8E0000DC0BB7 /* YelpAPI-dummy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "YelpAPI-dummy.m"; sourceTree = "<group>"; };
+		2B4F94371E8D8E0000DC0BB7 /* YelpAPI-prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "YelpAPI-prefix.pch"; sourceTree = "<group>"; };
+		2B4F94381E8D8E0000DC0BB7 /* YelpAPI-umbrella.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "YelpAPI-umbrella.h"; sourceTree = "<group>"; };
+		2B4F94501E8DA0EC00DC0BB7 /* YelpAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = YelpAPI.framework; path = "../../Library/Developer/Xcode/DerivedData/B-Trucks-emdwolfbfdjfwidjwscbgzurjhja/Build/Products/Debug-iphonesimulator/YelpAPI/YelpAPI.framework"; sourceTree = "<group>"; };
+		2B4F94561E94784400DC0BB7 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		2B647D061E5CFB000041958F /* Map.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Map.swift; path = ../Map.swift; sourceTree = "<group>"; };
+		2B647D091E5CFB4E0041958F /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		2B66442F1E8227ED00D0B45E /* UserSidebarVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserSidebarVC.swift; sourceTree = "<group>"; };
+		2B6644311E8348B000D0B45E /* OwnerTrucksViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OwnerTrucksViewController.swift; sourceTree = "<group>"; };
+		2B6644331E8422C800D0B45E /* OwnerTrucks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OwnerTrucks.swift; sourceTree = "<group>"; };
+		2B6644351E84241800D0B45E /* OwnerTrucksTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OwnerTrucksTableViewCell.swift; sourceTree = "<group>"; };
+		2B6C428B1DF4B7A700655C9E /* B-Trucks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "B-Trucks.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B6C428E1DF4B7A800655C9E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2B6C42951DF4B7A800655C9E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2B6C429A1DF4B7A800655C9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B87F6A51E9D8B36008E7A6E /* Menu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		2B87F6A61E9D8B36008E7A6E /* MenuTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuTableViewCell.swift; sourceTree = "<group>"; };
+		2B87F6A71E9D8B36008E7A6E /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		2B87F6AF1EA57227008E7A6E /* EditTruckMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditTruckMenu.swift; sourceTree = "<group>"; };
+		2B87F6B21EA572A5008E7A6E /* EditTruckMenuViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditTruckMenuViewCell.swift; sourceTree = "<group>"; };
+		2B87F6B41EA5735C008E7A6E /* EditTruckMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditTruckMenuViewController.swift; sourceTree = "<group>"; };
+		2B87F6BF1EA7093B008E7A6E /* updateTruckInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = updateTruckInfo.swift; sourceTree = "<group>"; };
+		2B87F6C41EA73236008E7A6E /* addMenuItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = addMenuItem.swift; sourceTree = "<group>"; };
+		2B87F6C61EA844EF008E7A6E /* FoodRecommendations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodRecommendations.swift; sourceTree = "<group>"; };
+		2BD5BD181E8C7A3E004AE489 /* LoadingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoadingViewController.swift; path = ../LoadingViewController.swift; sourceTree = "<group>"; };
+		2BD5BD1A1E8C838F004AE489 /* EmployeeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmployeeViewController.swift; sourceTree = "<group>"; };
+		2BE28AAB1E68C922008CC670 /* PasswordRecovery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasswordRecovery.swift; sourceTree = "<group>"; };
+		6044C44D1E6CA90C00B2A78D /* TruckList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TruckList.swift; path = ../TruckList.swift; sourceTree = "<group>"; };
+		6044C44F1E6CAA1600B2A78D /* TruckListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TruckListTableViewCell.swift; sourceTree = "<group>"; };
+		6044C4511E6CAA8B00B2A78D /* TrucksListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrucksListViewController.swift; sourceTree = "<group>"; };
+		90F268BDA4529AA529C2B2A0 /* Pods_B_Trucks.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_B_Trucks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7F2092BD52D11EA1EB25179 /* Pods-B-Trucks.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-B-Trucks.release.xcconfig"; path = "Pods/Target Support Files/Pods-B-Trucks/Pods-B-Trucks.release.xcconfig"; sourceTree = "<group>"; };
+		E7BB63EF1EA8770300708866 /* CreateTruck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CreateTruck.swift; path = ../../../../../../var/folders/xw/f8m1pbmx771b85kjnvkrw7900000gn/T/com.apple.iChat/Messages/Transfers/CreateTruck.swift; sourceTree = "<group>"; };
+		E7BB63F11EA8776A00708866 /* RegisterUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RegisterUser.swift; path = ../../../../../../var/folders/xw/f8m1pbmx771b85kjnvkrw7900000gn/T/com.apple.iChat/Messages/Transfers/RegisterUser.swift; sourceTree = "<group>"; };
+		E7BB63F31EA8778F00708866 /* RegisterOwner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RegisterOwner.swift; path = ../../../../../../var/folders/xw/f8m1pbmx771b85kjnvkrw7900000gn/T/com.apple.iChat/Messages/Transfers/RegisterOwner.swift; sourceTree = "<group>"; };
+		E7BB63F51EA877A600708866 /* LogInScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LogInScreen.swift; path = ../../../../../../var/folders/xw/f8m1pbmx771b85kjnvkrw7900000gn/T/com.apple.iChat/Messages/Transfers/LogInScreen.swift; sourceTree = "<group>"; };
+		E7BB63F71EA877BB00708866 /* UpdateOwnerInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UpdateOwnerInfo.swift; path = ../../../../../../var/folders/xw/f8m1pbmx771b85kjnvkrw7900000gn/T/com.apple.iChat/Messages/Transfers/UpdateOwnerInfo.swift; sourceTree = "<group>"; };
+		E7BB63F91EA877EE00708866 /* updateTruckLocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = updateTruckLocation.swift; path = ../../../../../../var/folders/xw/f8m1pbmx771b85kjnvkrw7900000gn/T/com.apple.iChat/Messages/Transfers/updateTruckLocation.swift; sourceTree = "<group>"; };
+		E7BB63FB1EA8787000708866 /* updateUserInfo-2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "updateUserInfo-2.swift"; path = "../../../../../../var/folders/xw/f8m1pbmx771b85kjnvkrw7900000gn/T/com.apple.iChat/Messages/Transfers/updateUserInfo-2.swift"; sourceTree = "<group>"; };
+		F849EE9F6C593078166895BE /* Pods-B-Trucks.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-B-Trucks.debug.xcconfig"; path = "Pods/Target Support Files/Pods-B-Trucks/Pods-B-Trucks.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B6C42881DF4B7A700655C9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B4F94571E94784400DC0BB7 /* CoreLocation.framework in Frameworks */,
+				2B4F94511E8DA0EC00DC0BB7 /* YelpAPI.framework in Frameworks */,
+				2B647D0A1E5CFB4E0041958F /* MapKit.framework in Frameworks */,
+				D409BDA6A48BE23B56EA2872 /* Pods_B_Trucks.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B4F94071E8D88EF00DC0BB7 /* ViewFoodRecListView */ = {
+			isa = PBXGroup;
+			children = (
+				2B4F94011E8D885F00DC0BB7 /* Rec.swift */,
+				2B4F94051E8D888700DC0BB7 /* RecTableViewCell.swift */,
+				2B4F94031E8D887200DC0BB7 /* RecsViewController.swift */,
+			);
+			name = ViewFoodRecListView;
+			sourceTree = "<group>";
+		};
+		2B4F94391E8D8E0000DC0BB7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2B4F94331E8D8E0000DC0BB7 /* Info.plist */,
+				2B4F94341E8D8E0000DC0BB7 /* YelpAPI.modulemap */,
+				2B4F94351E8D8E0000DC0BB7 /* YelpAPI.xcconfig */,
+				2B4F94361E8D8E0000DC0BB7 /* YelpAPI-dummy.m */,
+				2B4F94371E8D8E0000DC0BB7 /* YelpAPI-prefix.pch */,
+				2B4F94381E8D8E0000DC0BB7 /* YelpAPI-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/YelpAPI";
+			sourceTree = "<group>";
+		};
+		2B4F943A1E8D8E0000DC0BB7 /* YelpAPI */ = {
+			isa = PBXGroup;
+			children = (
+				2B4F94111E8D8E0000DC0BB7 /* NSDictionary+YLPUtils.m */,
+				2B4F94121E8D8E0000DC0BB7 /* YelpAPI.h */,
+				2B4F94131E8D8E0000DC0BB7 /* YLPBusiness.h */,
+				2B4F94141E8D8E0000DC0BB7 /* YLPBusiness.m */,
+				2B4F94151E8D8E0000DC0BB7 /* YLPBusinessReviews.h */,
+				2B4F94161E8D8E0000DC0BB7 /* YLPBusinessReviews.m */,
+				2B4F94171E8D8E0000DC0BB7 /* YLPCategory.h */,
+				2B4F94181E8D8E0000DC0BB7 /* YLPCategory.m */,
+				2B4F94191E8D8E0000DC0BB7 /* YLPClient.h */,
+				2B4F941A1E8D8E0000DC0BB7 /* YLPClient.m */,
+				2B4F941B1E8D8E0000DC0BB7 /* YLPClient+Business.h */,
+				2B4F941C1E8D8E0000DC0BB7 /* YLPClient+Business.m */,
+				2B4F941D1E8D8E0000DC0BB7 /* YLPClient+PhoneSearch.h */,
+				2B4F941E1E8D8E0000DC0BB7 /* YLPClient+PhoneSearch.m */,
+				2B4F941F1E8D8E0000DC0BB7 /* YLPClient+Reviews.h */,
+				2B4F94201E8D8E0000DC0BB7 /* YLPClient+Reviews.m */,
+				2B4F94211E8D8E0000DC0BB7 /* YLPClient+Search.h */,
+				2B4F94221E8D8E0000DC0BB7 /* YLPClient+Search.m */,
+				2B4F94231E8D8E0000DC0BB7 /* YLPClientPrivate.h */,
+				2B4F94241E8D8E0000DC0BB7 /* YLPCoordinate.h */,
+				2B4F94251E8D8E0000DC0BB7 /* YLPCoordinate.m */,
+				2B4F94261E8D8E0000DC0BB7 /* YLPLocation.h */,
+				2B4F94271E8D8E0000DC0BB7 /* YLPLocation.m */,
+				2B4F94281E8D8E0000DC0BB7 /* YLPQuery.h */,
+				2B4F94291E8D8E0000DC0BB7 /* YLPQuery.m */,
+				2B4F942A1E8D8E0000DC0BB7 /* YLPQueryPrivate.h */,
+				2B4F942B1E8D8E0000DC0BB7 /* YLPResponsePrivate.h */,
+				2B4F942C1E8D8E0000DC0BB7 /* YLPReview.h */,
+				2B4F942D1E8D8E0000DC0BB7 /* YLPReview.m */,
+				2B4F942E1E8D8E0000DC0BB7 /* YLPSearch.h */,
+				2B4F942F1E8D8E0000DC0BB7 /* YLPSearch.m */,
+				2B4F94301E8D8E0000DC0BB7 /* YLPSortType.h */,
+				2B4F94311E8D8E0000DC0BB7 /* YLPUser.h */,
+				2B4F94321E8D8E0000DC0BB7 /* YLPUser.m */,
+				2B4F94391E8D8E0000DC0BB7 /* Support Files */,
+			);
+			path = YelpAPI;
+			sourceTree = "<group>";
+		};
+		2B4F943B1E8D8E0000DC0BB7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2B4F943A1E8D8E0000DC0BB7 /* YelpAPI */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		2B647D081E5CFB4E0041958F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2B4F94561E94784400DC0BB7 /* CoreLocation.framework */,
+				2B4F94501E8DA0EC00DC0BB7 /* YelpAPI.framework */,
+				2B647D091E5CFB4E0041958F /* MapKit.framework */,
+				90F268BDA4529AA529C2B2A0 /* Pods_B_Trucks.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2B6644371E842B1E00D0B45E /* View Owner's Trucks Listview */ = {
+			isa = PBXGroup;
+			children = (
+				2B6644331E8422C800D0B45E /* OwnerTrucks.swift */,
+				2B6644351E84241800D0B45E /* OwnerTrucksTableViewCell.swift */,
+				2B6644311E8348B000D0B45E /* OwnerTrucksViewController.swift */,
+			);
+			name = "View Owner's Trucks Listview";
+			sourceTree = "<group>";
+		};
+		2B6644381E842B3000D0B45E /* View Trucks Listview */ = {
+			isa = PBXGroup;
+			children = (
+				6044C44D1E6CA90C00B2A78D /* TruckList.swift */,
+				6044C44F1E6CAA1600B2A78D /* TruckListTableViewCell.swift */,
+				6044C4511E6CAA8B00B2A78D /* TrucksListViewController.swift */,
+			);
+			name = "View Trucks Listview";
+			sourceTree = "<group>";
+		};
+		2B6644391E842B5C00D0B45E /* User Registration & Login */ = {
+			isa = PBXGroup;
+			children = (
+				2BE28AAB1E68C922008CC670 /* PasswordRecovery.swift */,
+				E7BB63EF1EA8770300708866 /* CreateTruck.swift */,
+				E7BB63F11EA8776A00708866 /* RegisterUser.swift */,
+				E7BB63F31EA8778F00708866 /* RegisterOwner.swift */,
+				E7BB63F51EA877A600708866 /* LogInScreen.swift */,
+			);
+			name = "User Registration & Login";
+			sourceTree = "<group>";
+		};
+		2B66443A1E842C3500D0B45E /* Settings Bar */ = {
+			isa = PBXGroup;
+			children = (
+				243E11041E6E66960042E0DA /* OwnerSidebarVC.swift */,
+				2B66442F1E8227ED00D0B45E /* UserSidebarVC.swift */,
+				243E11001E6E3C6F0042E0DA /* B-Trucks-Bridging-Header.h */,
+				243E11011E6E3C700042E0DA /* SWRevealViewController.h */,
+				243E11021E6E3C700042E0DA /* SWRevealViewController.m */,
+			);
+			name = "Settings Bar";
+			sourceTree = "<group>";
+		};
+		2B6C42821DF4B7A700655C9E = {
+			isa = PBXGroup;
+			children = (
+				2B6C428D1DF4B7A700655C9E /* B-Trucks */,
+				2B6C428C1DF4B7A700655C9E /* Products */,
+				2B647D081E5CFB4E0041958F /* Frameworks */,
+				55304EF129660C0979EB9D56 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		2B6C428C1DF4B7A700655C9E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B6C428B1DF4B7A700655C9E /* B-Trucks.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B6C428D1DF4B7A700655C9E /* B-Trucks */ = {
+			isa = PBXGroup;
+			children = (
+				2BD5BD181E8C7A3E004AE489 /* LoadingViewController.swift */,
+				2B6C428E1DF4B7A800655C9E /* AppDelegate.swift */,
+				2B87F6C61EA844EF008E7A6E /* FoodRecommendations.swift */,
+				2B6644391E842B5C00D0B45E /* User Registration & Login */,
+				E7BB63F71EA877BB00708866 /* UpdateOwnerInfo.swift */,
+				2B87F6B11EA5722F008E7A6E /* EditTruckMenu */,
+				2B87F6A41E9D8B2A008E7A6E /* ViewMenu */,
+				E7BB63FB1EA8787000708866 /* updateUserInfo-2.swift */,
+				2B87F6C41EA73236008E7A6E /* addMenuItem.swift */,
+				2B87F6BF1EA7093B008E7A6E /* updateTruckInfo.swift */,
+				2B66443A1E842C3500D0B45E /* Settings Bar */,
+				2B647D061E5CFB000041958F /* Map.swift */,
+				2B6644381E842B3000D0B45E /* View Trucks Listview */,
+				2B6644371E842B1E00D0B45E /* View Owner's Trucks Listview */,
+				2BD5BD1A1E8C838F004AE489 /* EmployeeViewController.swift */,
+				E7BB63F91EA877EE00708866 /* updateTruckLocation.swift */,
+				2B4F940F1E8D8C0400DC0BB7 /* TruckInfoViewController.swift */,
+				2B420A5D1E95968E001B6BF1 /* Main.storyboard */,
+				2B4F94071E8D88EF00DC0BB7 /* ViewFoodRecListView */,
+				2B6C42951DF4B7A800655C9E /* Assets.xcassets */,
+				2B6C429A1DF4B7A800655C9E /* Info.plist */,
+			);
+			path = "B-Trucks";
+			sourceTree = "<group>";
+		};
+		2B87F6A41E9D8B2A008E7A6E /* ViewMenu */ = {
+			isa = PBXGroup;
+			children = (
+				2B87F6A51E9D8B36008E7A6E /* Menu.swift */,
+				2B87F6A61E9D8B36008E7A6E /* MenuTableViewCell.swift */,
+				2B87F6A71E9D8B36008E7A6E /* MenuViewController.swift */,
+			);
+			name = ViewMenu;
+			sourceTree = "<group>";
+		};
+		2B87F6B11EA5722F008E7A6E /* EditTruckMenu */ = {
+			isa = PBXGroup;
+			children = (
+				2B87F6AF1EA57227008E7A6E /* EditTruckMenu.swift */,
+				2B87F6B21EA572A5008E7A6E /* EditTruckMenuViewCell.swift */,
+				2B87F6B41EA5735C008E7A6E /* EditTruckMenuViewController.swift */,
+			);
+			name = EditTruckMenu;
+			sourceTree = "<group>";
+		};
+		55304EF129660C0979EB9D56 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2B4F943B1E8D8E0000DC0BB7 /* Pods */,
+				F849EE9F6C593078166895BE /* Pods-B-Trucks.debug.xcconfig */,
+				D7F2092BD52D11EA1EB25179 /* Pods-B-Trucks.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2B6C428A1DF4B7A700655C9E /* B-Trucks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B6C429D1DF4B7A800655C9E /* Build configuration list for PBXNativeTarget "B-Trucks" */;
+			buildPhases = (
+				C47FA6479E5D26DB06FC828E /* [CP] Check Pods Manifest.lock */,
+				2B6C42871DF4B7A700655C9E /* Sources */,
+				2B6C42881DF4B7A700655C9E /* Frameworks */,
+				2B6C42891DF4B7A700655C9E /* Resources */,
+				C073F5551F37FEE9B904BEC3 /* [CP] Embed Pods Frameworks */,
+				92F7D8AC46B4F245AD461AAE /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "B-Trucks";
+			productName = "B-Trucks";
+			productReference = 2B6C428B1DF4B7A700655C9E /* B-Trucks.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2B6C42831DF4B7A700655C9E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Wesley Van As";
+				TargetAttributes = {
+					2B6C428A1DF4B7A700655C9E = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = J744UE5USU;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 2B6C42861DF4B7A700655C9E /* Build configuration list for PBXProject "B-Trucks" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2B6C42821DF4B7A700655C9E;
+			productRefGroup = 2B6C428C1DF4B7A700655C9E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2B6C428A1DF4B7A700655C9E /* B-Trucks */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2B6C42891DF4B7A700655C9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B6C42961DF4B7A800655C9E /* Assets.xcassets in Resources */,
+				2B4F944B1E8D8E0000DC0BB7 /* Info.plist in Resources */,
+				2B4F944C1E8D8E0000DC0BB7 /* YelpAPI.xcconfig in Resources */,
+				2B420A5E1E95968E001B6BF1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		92F7D8AC46B4F245AD461AAE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-B-Trucks/Pods-B-Trucks-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C073F5551F37FEE9B904BEC3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-B-Trucks/Pods-B-Trucks-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C47FA6479E5D26DB06FC828E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B6C42871DF4B7A700655C9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7BB63F41EA8778F00708866 /* RegisterOwner.swift in Sources */,
+				243E11031E6E3C700042E0DA /* SWRevealViewController.m in Sources */,
+				2B6644361E84241800D0B45E /* OwnerTrucksTableViewCell.swift in Sources */,
+				2B4F94101E8D8C0400DC0BB7 /* TruckInfoViewController.swift in Sources */,
+				2B4F943D1E8D8E0000DC0BB7 /* YLPBusiness.m in Sources */,
+				E7BB63FC1EA8787000708866 /* updateUserInfo-2.swift in Sources */,
+				2B4F94041E8D887200DC0BB7 /* RecsViewController.swift in Sources */,
+				2BD5BD191E8C7A3E004AE489 /* LoadingViewController.swift in Sources */,
+				2BD5BD1B1E8C838F004AE489 /* EmployeeViewController.swift in Sources */,
+				2B87F6A91E9D8B36008E7A6E /* MenuTableViewCell.swift in Sources */,
+				E7BB63F61EA877A600708866 /* LogInScreen.swift in Sources */,
+				2B87F6C51EA73236008E7A6E /* addMenuItem.swift in Sources */,
+				2B4F94021E8D885F00DC0BB7 /* Rec.swift in Sources */,
+				2B87F6A81E9D8B36008E7A6E /* Menu.swift in Sources */,
+				2B6644301E8227ED00D0B45E /* UserSidebarVC.swift in Sources */,
+				243E11051E6E66960042E0DA /* OwnerSidebarVC.swift in Sources */,
+				2B6644341E8422C800D0B45E /* OwnerTrucks.swift in Sources */,
+				2B4F943C1E8D8E0000DC0BB7 /* NSDictionary+YLPUtils.m in Sources */,
+				E7BB63F21EA8776A00708866 /* RegisterUser.swift in Sources */,
+				2B4F94451E8D8E0000DC0BB7 /* YLPCoordinate.m in Sources */,
+				E7BB63F01EA8770300708866 /* CreateTruck.swift in Sources */,
+				E7BB63F81EA877BB00708866 /* UpdateOwnerInfo.swift in Sources */,
+				2B4F94411E8D8E0000DC0BB7 /* YLPClient+Business.m in Sources */,
+				2B4F94481E8D8E0000DC0BB7 /* YLPReview.m in Sources */,
+				2B6644321E8348B000D0B45E /* OwnerTrucksViewController.swift in Sources */,
+				E7BB63FA1EA877EE00708866 /* updateTruckLocation.swift in Sources */,
+				2B4F943E1E8D8E0000DC0BB7 /* YLPBusinessReviews.m in Sources */,
+				2B4F94061E8D888700DC0BB7 /* RecTableViewCell.swift in Sources */,
+				2BE28AAC1E68C922008CC670 /* PasswordRecovery.swift in Sources */,
+				2B4F94421E8D8E0000DC0BB7 /* YLPClient+PhoneSearch.m in Sources */,
+				2B4F94491E8D8E0000DC0BB7 /* YLPSearch.m in Sources */,
+				2B4F94441E8D8E0000DC0BB7 /* YLPClient+Search.m in Sources */,
+				2B4F94431E8D8E0000DC0BB7 /* YLPClient+Reviews.m in Sources */,
+				2B87F6AA1E9D8B36008E7A6E /* MenuViewController.swift in Sources */,
+				2B647D071E5CFB000041958F /* Map.swift in Sources */,
+				2B4F94401E8D8E0000DC0BB7 /* YLPClient.m in Sources */,
+				2B87F6C71EA844EF008E7A6E /* FoodRecommendations.swift in Sources */,
+				2B4F94471E8D8E0000DC0BB7 /* YLPQuery.m in Sources */,
+				2B4F943F1E8D8E0000DC0BB7 /* YLPCategory.m in Sources */,
+				6044C4501E6CAA1600B2A78D /* TruckListTableViewCell.swift in Sources */,
+				6044C4521E6CAA8B00B2A78D /* TrucksListViewController.swift in Sources */,
+				2B4F94461E8D8E0000DC0BB7 /* YLPLocation.m in Sources */,
+				2B6C428F1DF4B7A800655C9E /* AppDelegate.swift in Sources */,
+				2B87F6C11EA7093B008E7A6E /* updateTruckInfo.swift in Sources */,
+				2B87F6B31EA572A5008E7A6E /* EditTruckMenuViewCell.swift in Sources */,
+				2B4F944A1E8D8E0000DC0BB7 /* YLPUser.m in Sources */,
+				6044C44E1E6CA90C00B2A78D /* TruckList.swift in Sources */,
+				2B4F944D1E8D8E0000DC0BB7 /* YelpAPI-dummy.m in Sources */,
+				2B87F6B51EA5735C008E7A6E /* EditTruckMenuViewController.swift in Sources */,
+				2B87F6B01EA57227008E7A6E /* EditTruckMenu.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2B6C429B1DF4B7A800655C9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2B6C429C1DF4B7A800655C9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2B6C429E1DF4B7A800655C9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F849EE9F6C593078166895BE /* Pods-B-Trucks.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_INFINITE_RECURSION = NO;
+				CLANG_WARN_SUSPICIOUS_MOVES = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = J744UE5USU;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/YelpAPI",
+				);
+				GCC_NO_COMMON_BLOCKS = NO;
+				INFOPLIST_FILE = "B-Trucks/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.IU.B-Trucks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "B-Trucks/B-Trucks-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		2B6C429F1DF4B7A800655C9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7F2092BD52D11EA1EB25179 /* Pods-B-Trucks.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_INFINITE_RECURSION = NO;
+				CLANG_WARN_SUSPICIOUS_MOVES = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = J744UE5USU;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/YelpAPI",
+				);
+				GCC_NO_COMMON_BLOCKS = NO;
+				INFOPLIST_FILE = "B-Trucks/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.IU.B-Trucks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "B-Trucks/B-Trucks-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B6C42861DF4B7A700655C9E /* Build configuration list for PBXProject "B-Trucks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B6C429B1DF4B7A800655C9E /* Debug */,
+				2B6C429C1DF4B7A800655C9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B6C429D1DF4B7A800655C9E /* Build configuration list for PBXNativeTarget "B-Trucks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B6C429E1DF4B7A800655C9E /* Debug */,
+				2B6C429F1DF4B7A800655C9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2B6C42831DF4B7A700655C9E /* Project object */;
+}
